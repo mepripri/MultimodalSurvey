@@ -15,6 +15,7 @@ function Header() {
           eaque nostrum quod cumque asperiores maxime eveniet, nihil molestias
           recusandae.
         </p>
+        <button className="header-btn">MORE INFO</button>
       </div>
       <div className="header-img">
         <img src={main} alt="main" />

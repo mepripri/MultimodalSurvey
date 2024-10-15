@@ -3,13 +3,18 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div className="navbar">
-      <ul className="navbar-menu">
-        <a href="#explore-menu">Menu</a>
-        <a href="#app-download">Mobile App</a>
-        <a href="#footer">Contact Us</a>
-      </ul>
-    </div>
+    <>
+      <div className="blank-div"></div>
+      <div className="navbar">
+        <ul className="navbar-menu">
+          <a href="#explore-menu">About Us</a>
+          <a href="#app-download">Literature Review</a>
+          <a href="#footer">Methodology</a>
+          <a href="#results">Results</a>
+        </ul>
+      </div>
+      <div className="blank-div"></div>
+    </>
   );
 }
 

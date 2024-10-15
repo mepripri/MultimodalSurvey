@@ -1,3 +1,8 @@
+.blank-div {
+  height: 4px;
+  background-color: #faf7f0;
+}
+
 .navbar {
   padding: 20px;
   display: flex;
@@ -17,8 +22,12 @@
 }
 
 .navbar-menu a {
-  color: #faf7f0;
+  color: #4a4947;
   font-size: 18px;
+  background-color: #faf7f0;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: 600;
 }
 
 .navbar li {

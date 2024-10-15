@@ -8,7 +8,7 @@
 }
 
 .header .header-h1-p {
-  width: 40%;
+  width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,18 +17,30 @@
 
 .header-h1-p h1 {
   padding: 20px;
-  font-size: 40px;
+  font-size: 45px;
   text-align: justify;
 }
 
 .header-h1-p p {
-  padding: 20px;
+  padding: 30px 20px 40px;
   font-size: 18px;
   text-align: justify;
 }
 
+.header-btn {
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-size: 18px;
+  background-color: #4a4947;
+  color: #faf7f0;
+  font-weight: 600;
+  border: none;
+}
+
 .header .header-img {
   width: 40%;
+  display: flex;
+  justify-content: center;
 }
 
 .header-img img {
