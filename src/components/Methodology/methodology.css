@@ -1,0 +1,66 @@
+/* Container for the Methodology section */
+.methodology-container {
+    width: 100%;
+    padding: 40px 20px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #faf7f0;
+    background-color: #4a4947;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .methodology-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /* Individual row with image and text */
+  .methodology-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  /* Styling for images */
+  .methodology-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  /* Text alignment and formatting */
+  .methodology-row p {
+    flex: 1;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Alternate the image and text layout for even rows */
+  .methodology-row:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  @media (max-width: 768px) {
+    .methodology-row {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .methodology-image {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .methodology-row p {
+      text-align: justify;
+    }
+  }
+  

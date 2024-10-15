@@ -1,0 +1,94 @@
+/* Container for the entire intro section */
+.intro-container {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Problem Section */
+  .problem-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .problem-circle {
+    width: 220px;
+    height: 220px;
+    background-color: #4a4947;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+  .problem-circle h2 {
+    color: #faf7f0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .problem-text {
+    background-color: #bc7f58;
+    padding: 20px;
+    border-radius: 30px;
+    width: 60%;
+  }
+  
+  .problem-text p {
+    color: #faf7f0;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Introduction Section */
+  .introduction-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .intro-heading {
+    background-color: #4a4947;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    color: #faf7f0;
+  }
+  
+  .intro-heading h2 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .intro-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .intro-text p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  @media (max-width: 768px) {
+    .problem-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .problem-circle {
+      margin-bottom: 20px;
+    }
+  
+    .problem-text {
+      width: 100%;
+    }
+  
+    .intro-text {
+      width: 100%;
+    }
+  }
+  

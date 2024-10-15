@@ -1,56 +1,106 @@
+/* Reset the margin and padding of the body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .blank-div {
-  height: 4px;
+  height: 0; /* Set to 0 to remove unnecessary space */
   background-color: #faf7f0;
 }
 
 .navbar {
-  padding: 20px;
+  height: 60px; /* Reduce navbar height */
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #4a4947;
+  padding: 0 20px;
 }
 
 .navbar-menu {
   display: flex;
   list-style: none;
   gap: 20px;
-  color: #faf7f0;
-  font-size: 18px;
-  width: 100%;
-  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  list-style: none;
 }
 
 .navbar-menu a {
   color: #4a4947;
-  font-size: 18px;
+  font-size: 16px; /* Smaller font size */
   background-color: #faf7f0;
-  padding: 10px 30px;
+  padding: 8px 20px; /* Smaller padding */
   border-radius: 30px;
   font-weight: 600;
+  display: flex;
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.navbar li {
-  cursor: pointer;
+.navbar-menu a:hover {
+  background-color: #4a4947;
   color: #faf7f0;
 }
 
-@media (max-width: 1050px) {
-  .navbar-menu {
-    gap: 20px;
-    font-size: 17px;
-  }
+/* Hamburger Icon */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
 }
 
-@media (max-width: 900px) {
-  .navbar-menu {
-    gap: 15px;
-    font-size: 16px;
-  }
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #faf7f0;
+  margin: 4px 0;
+  transition: 0.3s;
 }
 
+/* Responsive Navbar - Mobile */
 @media (max-width: 750px) {
+  .navbar {
+    height: 50px; /* Reduce navbar height further on mobile */
+  }
+
   .navbar-menu {
     display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px; /* Adjust based on navbar height */
+    right: 0;
+    background-color: #4a4947;
+    width: 100%;
+    gap: 0;
+    padding: 0; /* Remove padding */
+  }
+
+  .navbar-menu.open {
+    display: flex;
+  }
+
+  .navbar-menu li {
+    width: 100%;
+    margin: 0; /* Remove any margin */
+  }
+
+  .navbar-menu a {
+    width: 100%;
+    padding: 8px 10px; /* Smaller padding for mobile view */
+    text-align: center;
+    background-color: #faf7f0;
+    font-size: 14px; /* Even smaller font size for mobile */
+    border-radius: 15px; /* Smaller border-radius */
+  }
+
+  .hamburger {
+    display: flex; /* Show hamburger icon on small screens */
   }
 }
