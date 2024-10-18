@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/MultimodalSurvey/static/css/main.a8c451de.css",
-    "main.js": "/MultimodalSurvey/static/js/main.e29dbcb0.js",
+    "main.css": "/MultimodalSurvey/static/css/main.08bedffc.css",
+    "main.js": "/MultimodalSurvey/static/js/main.a07b6dc3.js",
     "static/media/main.jpeg": "/MultimodalSurvey/static/media/main.a31fe1cc81badf56e230.jpeg",
     "index.html": "/MultimodalSurvey/index.html",
-    "main.a8c451de.css.map": "/MultimodalSurvey/static/css/main.a8c451de.css.map",
-    "main.e29dbcb0.js.map": "/MultimodalSurvey/static/js/main.e29dbcb0.js.map"
+    "main.08bedffc.css.map": "/MultimodalSurvey/static/css/main.08bedffc.css.map",
+    "main.a07b6dc3.js.map": "/MultimodalSurvey/static/js/main.a07b6dc3.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8c451de.css",
-    "static/js/main.e29dbcb0.js"
+    "static/css/main.08bedffc.css",
+    "static/js/main.a07b6dc3.js"
   ]
 }
