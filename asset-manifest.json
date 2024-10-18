@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/MultimodalSurvey/static/css/main.93b59ae3.css",
-    "main.js": "/MultimodalSurvey/static/js/main.154b9458.js",
+    "main.css": "/MultimodalSurvey/static/css/main.a8e47cb8.css",
+    "main.js": "/MultimodalSurvey/static/js/main.a2381d17.js",
+    "static/media/Vineetha.jpg": "/MultimodalSurvey/static/media/Vineetha.c66ac981b907d49aee51.jpg",
+    "static/media/Priyal.jpg": "/MultimodalSurvey/static/media/Priyal.74c162145660ab966e09.jpg",
+    "static/media/Sameera.jpg": "/MultimodalSurvey/static/media/Sameera.f7c8253c386501afb271.jpg",
     "static/media/main.jpeg": "/MultimodalSurvey/static/media/main.a31fe1cc81badf56e230.jpeg",
     "index.html": "/MultimodalSurvey/index.html",
-    "main.93b59ae3.css.map": "/MultimodalSurvey/static/css/main.93b59ae3.css.map",
-    "main.154b9458.js.map": "/MultimodalSurvey/static/js/main.154b9458.js.map"
+    "main.a8e47cb8.css.map": "/MultimodalSurvey/static/css/main.a8e47cb8.css.map",
+    "main.a2381d17.js.map": "/MultimodalSurvey/static/js/main.a2381d17.js.map"
   },
   "entrypoints": [
-    "static/css/main.93b59ae3.css",
-    "static/js/main.154b9458.js"
+    "static/css/main.a8e47cb8.css",
+    "static/js/main.a2381d17.js"
   ]
 }
