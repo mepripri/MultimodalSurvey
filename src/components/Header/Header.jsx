@@ -4,6 +4,8 @@ import main from "../../assets/main.jpeg";
 import Intro from "../Introduction/intro"; // Import the Intro component
 import LiteratureReview from "../Literature/lit";
 import Methodology from "../Methodology/methodology";
+import Results from "../Result/Result";
+import AboutUs from "../AboutUS/AboutUs";
 
 function Header() {
   return (
@@ -31,6 +33,10 @@ function Header() {
       <Intro />
       <LiteratureReview />
       <Methodology/>
+      <Results/>
+      <AboutUs/>
+      
+
     </>
   );
 }

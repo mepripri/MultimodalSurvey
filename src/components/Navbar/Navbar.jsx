@@ -18,6 +18,8 @@ function Navbar() {
           <li><a href="#liter">Literature Review</a></li>
           <li><a href="#methodology">Methodology</a></li> {/* Updated href to #methodology */}
           <li><a href="#results">Results</a></li>
+          <li><a href="#about-us">About Us</a></li> {/* href updated to match id */}
+
         </ul>
         <div className="hamburger" onClick={toggleMenu}>
           {/* Hamburger icon */}
