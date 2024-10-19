@@ -3,10 +3,10 @@
 }
 
 .section-title-methodology {
-  font-size: 28px;
+  text-decoration: overline;
+  font-size: 36px;
   font-weight: bold;
-  color: #faf7f0;
-  background-color: #4a4947;
+  color: #4a4947;
   padding: 20px;
   text-align: center;
   margin-bottom: 40px;
