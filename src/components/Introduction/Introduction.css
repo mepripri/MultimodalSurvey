@@ -50,4 +50,8 @@ hr {
   .intro-text {
     width: 100%;
   }
+  hr {
+    height: 4px;
+    width: 20%;
+  }
 }

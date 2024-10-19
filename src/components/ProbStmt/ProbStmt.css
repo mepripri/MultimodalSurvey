@@ -38,3 +38,37 @@
   text-align: center;
   font-style: italic;
 }
+
+@media (max-width: 768px) {
+  .probstmt {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 30px;
+  }
+
+  .circle {
+    margin-bottom: -20px;
+  }
+
+  .probstmt .circle-p {
+    width: 100%;
+    background-color: #b17457;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 18px;
+    padding: 30px;
+    color: #faf7f0;
+    margin-left: 0;
+  }
+
+  .circle p {
+    font-size: 50px;
+    font-weight: 700;
+    color: #faf7f0;
+    text-align: center;
+    font-style: italic;
+  }
+}
