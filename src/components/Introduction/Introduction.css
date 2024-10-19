@@ -1,0 +1,53 @@
+.pad-div {
+  padding: 50px 30px;
+}
+
+hr {
+  height: 5px;
+  border: 1px dashed #4a4947;
+  background-color: #4a4947;
+  width: 25%;
+  margin: auto;
+}
+
+.hr-div {
+  display: flex;
+}
+
+.intro-container {
+  width: 100%;
+}
+
+.introduction-section {
+  text-align: center;
+}
+
+.intro-heading {
+  color: #4a4947;
+}
+
+.intro-heading h2 {
+  text-decoration: overline;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.intro-text {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.intro-text p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .intro-text {
+    width: 100%;
+  }
+}

@@ -1,0 +1,58 @@
+.literature-review-container {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #faf7f0;
+  background-color: #4a4947;
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+
+.literature-table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.literature-table th {
+  background-color: #4a4947;
+  color: #faf7f0;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.literature-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #000;
+  font-size: 16px;
+  background-color: #faf7f0;
+}
+
+.literature-table tr:nth-child(even) td {
+  background-color: #bc7f58;
+}
+
+.literature-table tr:nth-child(odd) td {
+  background-color: #faf7f0;
+}
+
+@media (max-width: 768px) {
+  .literature-table th,
+  .literature-table td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+}

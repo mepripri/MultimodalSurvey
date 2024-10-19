@@ -1,0 +1,61 @@
+.methodology-container {
+  width: 100%;
+}
+
+.section-title-methodology {
+  font-size: 28px;
+  font-weight: bold;
+  color: #faf7f0;
+  background-color: #4a4947;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.methodology-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 90%;
+  margin: auto;
+}
+
+.methodology-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.methodology-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.methodology-row p {
+  flex: 1;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.methodology-row:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+  .methodology-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .methodology-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .methodology-row p {
+    text-align: justify;
+  }
+}
