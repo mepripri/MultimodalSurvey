@@ -8,18 +8,26 @@ import Ravali from "../../assets/Ravali.jpeg";
 
 function AboutUs() {
   const members = [
-    { name: "Priyal Patel", image: Priyal, desc: "Website Developer" },
+    {
+      name: "Priyal Patel",
+      image: Priyal,
+      desc: "Website Developer",
+    },
     { name: "Harshil Sharma", image: Harshil, desc: "Website Developer" },
     { name: "Sameera Munjampally", image: Sameera, desc: "Content Validator" },
     {
       name: "Ravali Maddela",
       image: Ravali,
       desc: "Reporting and Delivery Lead",
+      moreDesc:
+        "I’m a Master’s candidate at Saint Louis University, focusing on Python, machine learning, and cloud computing, with the aim of driving innovation in software engineering and making an impact in the tech industry.",
     },
     {
       name: "Vineetha Ravulapalli",
       image: Vineetha,
       desc: "Reporting and Delivery Lead",
+      moreDesc:
+        "I am Vineetha, currently pursuing a master's degree in computer science. I have two years of professional experience as a software developer, primarily focused on front-end development.",
     },
   ];
 
@@ -44,6 +52,7 @@ function AboutUs() {
                   </div>
                   <div className="flip-card-back">
                     <p>{member.desc}</p>
+                    <p className="desc">{member.moreDesc}</p>
                   </div>
                 </div>
               </div>
