@@ -12,6 +12,8 @@ function AboutUs() {
       name: "Priyal Patel",
       image: Priyal,
       desc: "Website Developer",
+      moreDesc:
+        "I’m a Master’s student at Saint Louis University, proficient front end developer effective at developing strong websites that achieve customer objectives. Well-versed in using ReactJS, NodeJS and ExpressJS as well as other resources to accomplish design requirements. ",
     },
     { name: "Harshil Sharma", image: Harshil, desc: "Website Developer" },
     { name: "Sameera Munjampally", image: Sameera, desc: "Content Validator" },
