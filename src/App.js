@@ -7,6 +7,7 @@ import Home from "./pages/Home/Home";
 import LiteratureReview from "./components/Literature/Literature";
 import Methodology from "./components/Methodology/Methodology";
 import Result from "./components/Result/Result";
+import AboutUs from "./components/AboutUS/AboutUs";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/LiteratureReview" element={<LiteratureReview />} />
           <Route path="/Methodology" element={<Methodology />} />
           <Route path="/Result" element={<Result />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
         </Routes>
         <Footer />
       </div>

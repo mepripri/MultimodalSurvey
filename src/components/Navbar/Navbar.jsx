@@ -47,6 +47,11 @@ function Navbar() {
               Taxonomy
             </Link>
           </li>
+          <li>
+            <Link to="/AboutUs" className="link-a" onClick={toggleMenu}>
+              AboutUs
+            </Link>
+          </li>
         </ul>
       </div>
     </>
