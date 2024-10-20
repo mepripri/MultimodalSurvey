@@ -12,7 +12,11 @@ function AboutUs() {
     { name: "Priyal Patel", image: Priyal, desc: "Website Developer" },
     { name: "Harshil Sharma", image: Harshil, desc: "Website Developer" },
     { name: "Sameera Munjampally", image: Sameera, desc: "Content Validator" },
-    { name: "Ravali Maddela", image: Ravali, desc: "Content Validator" },
+    {
+      name: "Ravali Maddela",
+      image: Ravali,
+      desc: "Reporting and Delivery Lead",
+    },
     {
       name: "Vineetha Ravulapalli",
       image: Vineetha,

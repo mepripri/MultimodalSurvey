@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import main from "../../assets/main.jpeg";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -16,7 +17,9 @@ function Header() {
             future research to build more robust, scalable, and secure
             multimodal systems for web applications.
           </p>
-          <button className="header-btn">MORE INFO</button>
+          <Link to="/Methodology" className="link-a">
+            <button className="header-btn">MORE INFO</button>
+          </Link>
         </div>
         <div className="header-img">
           <img src={main} alt="main" />

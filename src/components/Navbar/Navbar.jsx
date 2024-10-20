@@ -12,7 +12,11 @@ function Navbar() {
   return (
     <>
       <div className={`navbar ${menuOpen ? "expanded" : ""}`}>
-        <div className="logo">MultimodalSurvey</div>
+        <div className="logo">
+          <Link to="/" className="link-a">
+            MultimodalSurvey
+          </Link>
+        </div>
         <div className="hamburger" onClick={toggleMenu}>
           <div className="bar"></div>
           <div className="bar"></div>
@@ -36,7 +40,7 @@ function Navbar() {
           </li>
           <li>
             <Link to="/Result" className="link-a">
-              Results
+              Taxonomy
             </Link>
           </li>
         </ul>

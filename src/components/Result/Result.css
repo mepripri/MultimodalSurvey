@@ -1,62 +1,62 @@
 /* Container for the Results section */
 .results-container {
-    width: 100%;
-    padding: 40px 20px;
-    text-align: center;
-  }
-  
-  .section-title {
-    font-size: 28px;
-    font-weight: bold;
-    color: #faf7f0;
-    background-color: #4a4947;
-    padding: 20px;
-    margin-bottom: 40px;
-  }
-  
+  width: 100%;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.section-title-results {
+  text-decoration: overline;
+  font-size: 36px;
+  font-weight: bold;
+  color: #4a4947;
+  padding: 0 0 10px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.results-content {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+/* Individual result block */
+.result-block {
+  width: 30%;
+  background-color: #faf7f0;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.result-image {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the bullet point list */
+.result-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.result-list li {
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .results-content {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
+    flex-direction: column;
+    gap: 30px;
   }
-  
-  /* Individual result block */
+
   .result-block {
-    width: 30%;
-    background-color: #faf7f0;
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: left;
-  }
-  
-  .result-image {
     width: 100%;
-    border-radius: 20px;
-    margin-bottom: 20px;
   }
-  
-  /* Styling for the bullet point list */
-  .result-list {
-    list-style-type: disc;
-    padding-left: 20px;
-    font-size: 16px;
-    color: #333;
-  }
-  
-  .result-list li {
-    margin-bottom: 10px;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .results-content {
-      flex-direction: column;
-      gap: 30px;
-    }
-  
-    .result-block {
-      width: 100%;
-    }
-  }
-  
+}
