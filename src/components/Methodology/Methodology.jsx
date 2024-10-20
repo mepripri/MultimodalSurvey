@@ -4,7 +4,7 @@ import meth1 from "../../assets/meth1.jpg";
 
 function Methodology() {
   return (
-    <div className="pad-div">
+    <div className="pad-div pad-div-meth ">
       <div className="hr-div">
         <hr /> <hr />
       </div>
