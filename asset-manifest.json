@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MultimodalSurvey/static/css/main.61ef7a11.css",
-    "main.js": "/MultimodalSurvey/static/js/main.5493b995.js",
+    "main.css": "/MultimodalSurvey/static/css/main.b7383d46.css",
+    "main.js": "/MultimodalSurvey/static/js/main.8e490b26.js",
     "static/media/Vineetha.jpg": "/MultimodalSurvey/static/media/Vineetha.c66ac981b907d49aee51.jpg",
     "static/media/Priyal.jpg": "/MultimodalSurvey/static/media/Priyal.74c162145660ab966e09.jpg",
     "static/media/Sameera.jpg": "/MultimodalSurvey/static/media/Sameera.f7c8253c386501afb271.jpg",
@@ -9,11 +9,11 @@
     "static/media/main.jpeg": "/MultimodalSurvey/static/media/main.a31fe1cc81badf56e230.jpeg",
     "static/media/Ravali.jpeg": "/MultimodalSurvey/static/media/Ravali.0e8a66b22434fae0dcaf.jpeg",
     "index.html": "/MultimodalSurvey/index.html",
-    "main.61ef7a11.css.map": "/MultimodalSurvey/static/css/main.61ef7a11.css.map",
-    "main.5493b995.js.map": "/MultimodalSurvey/static/js/main.5493b995.js.map"
+    "main.b7383d46.css.map": "/MultimodalSurvey/static/css/main.b7383d46.css.map",
+    "main.8e490b26.js.map": "/MultimodalSurvey/static/js/main.8e490b26.js.map"
   },
   "entrypoints": [
-    "static/css/main.61ef7a11.css",
-    "static/js/main.5493b995.js"
+    "static/css/main.b7383d46.css",
+    "static/js/main.8e490b26.js"
   ]
 }
