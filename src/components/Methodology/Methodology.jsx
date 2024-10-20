@@ -14,7 +14,7 @@ function Methodology() {
           <div className="methodology-row">
             <img
               src={meth1}
-              alt="Methodology Image"
+              alt="Methodology_Image"
               className="methodology-image"
             />
             <p>
@@ -33,7 +33,7 @@ function Methodology() {
           <div className="methodology-row">
             <img
               src={meth1}
-              alt="Methodology Image"
+              alt="Methodology_Image"
               className="methodology-image"
             />
             <p>
@@ -52,7 +52,7 @@ function Methodology() {
           <div className="methodology-row">
             <img
               src={meth1}
-              alt="Methodology Image"
+              alt="Methodology_Image"
               className="methodology-image"
             />
             <p>
@@ -70,7 +70,7 @@ function Methodology() {
           <div className="methodology-row">
             <img
               src={meth1}
-              alt="Methodology Image"
+              alt="Methodology_Image"
               className="methodology-image"
             />
             <p>
@@ -89,7 +89,7 @@ function Methodology() {
           <div className="methodology-row">
             <img
               src={meth1}
-              alt="Methodology Image"
+              alt="Methodology_Image"
               className="methodology-image"
             />
             <p>

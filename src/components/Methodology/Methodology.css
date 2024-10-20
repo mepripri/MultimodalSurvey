@@ -69,4 +69,8 @@
   .methodology-row p {
     text-align: justify;
   }
+  .methodology-image {
+    width: 250px;
+    height: 250px;
+  }
 }
