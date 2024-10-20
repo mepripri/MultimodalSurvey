@@ -168,26 +168,28 @@ function LiteratureReview() {
       </div>
       <div id="liter" className="literature-review-container">
         <h2 className="section-title-literature">Literature Review</h2>
-        <table className="literature-table">
-          <thead>
-            <tr>
-              <th>Paper Citation</th>
-              <th>Problem Domain</th>
-              <th>Solution Approach</th>
-              <th>Methodology</th>
-            </tr>
-          </thead>
-          <tbody>
-            {tableData.map((row, index) => (
-              <tr key={index}>
-                <td>{row.citation}</td>
-                <td>{row.domain}</td>
-                <td>{row.solution}</td>
-                <td>{row.methodology}</td>
+        <div className="literature-table-wrapper">
+          <table className="literature-table">
+            <thead>
+              <tr>
+                <th>Paper Citation</th>
+                <th>Problem Domain</th>
+                <th>Solution Approach</th>
+                <th>Methodology</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {tableData.map((row, index) => (
+                <tr key={index}>
+                  <td>{row.citation}</td>
+                  <td>{row.domain}</td>
+                  <td>{row.solution}</td>
+                  <td>{row.methodology}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );
