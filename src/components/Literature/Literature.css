@@ -9,7 +9,7 @@
   font-size: 36px;
   font-weight: bold;
   color: #4a4947;
-  padding: 0 0 20px;
+  padding: 0 0 10px;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -47,6 +47,9 @@
 }
 
 @media (max-width: 768px) {
+  .literature-table {
+    width: 100%;
+  }
   .literature-table th,
   .literature-table td {
     font-size: 14px;
