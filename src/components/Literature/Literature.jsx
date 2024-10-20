@@ -162,7 +162,7 @@ function LiteratureReview() {
   ];
 
   return (
-    <div className="pad-div">
+    <div className="pad-div pad-div-lit">
       <div className="hr-div">
         <hr /> <hr />
       </div>
