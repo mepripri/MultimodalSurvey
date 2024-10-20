@@ -1,5 +1,5 @@
 .pad-div-meth {
-  padding: 50px 0;
+  padding: 50px 5px;
 }
 
 .methodology-container {
@@ -35,6 +35,8 @@
 .methodology-image {
   width: 150px;
   height: 150px;
+  object-fit: contain;
+  background-color: #bc7f58;
   border-radius: 10px;
 }
 
