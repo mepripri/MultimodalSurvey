@@ -11,9 +11,13 @@ function Navbar() {
 
   return (
     <>
-      <div className="blank-div"></div>
-      <div className="navbar">
+      <div className={`navbar ${menuOpen ? "expanded" : ""}`}>
         <div className="logo">MultimodalSurvey</div>
+        <div className="hamburger" onClick={toggleMenu}>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </div>
         <ul className={`navbar-menu ${menuOpen ? "open" : ""}`}>
           <li>
             <Link to="/MultimodalSurvey/" className="link-a">
@@ -36,13 +40,7 @@ function Navbar() {
             </Link>
           </li>
         </ul>
-        <div className="hamburger" onClick={toggleMenu}>
-          <div className="bar"></div>
-          <div className="bar"></div>
-          <div className="bar"></div>
-        </div>
       </div>
-      <div className="blank-div"></div>
     </>
   );
 }
