@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 80px 30px;
+  padding: 80px 30px 40px;
   margin: auto;
 }
 
@@ -46,7 +46,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px 10px;
+    padding: 80px 10px 40px;
   }
 
   .circle {

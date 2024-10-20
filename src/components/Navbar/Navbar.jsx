@@ -24,22 +24,26 @@ function Navbar() {
         </div>
         <ul className={`navbar-menu ${menuOpen ? "open" : ""}`}>
           <li>
-            <Link to="/" className="link-a">
+            <Link to="/" className="link-a" onClick={toggleMenu}>
               Home
             </Link>
           </li>
           <li>
-            <Link to="/LiteratureReview" className="link-a">
+            <Link
+              to="/LiteratureReview"
+              className="link-a"
+              onClick={toggleMenu}
+            >
               Literature Review
             </Link>
           </li>
           <li>
-            <Link to="/Methodology" className="link-a">
+            <Link to="/Methodology" className="link-a" onClick={toggleMenu}>
               Methodology
             </Link>
           </li>
           <li>
-            <Link to="/Result" className="link-a">
+            <Link to="/Result" className="link-a" onClick={toggleMenu}>
               Taxonomy
             </Link>
           </li>
