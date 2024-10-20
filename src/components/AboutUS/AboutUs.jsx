@@ -9,11 +9,15 @@ import Ravali from "../../assets/Ravali.jpeg";
 
 function AboutUs() {
   const members = [
-    { name: "Priyal Patel", image: Priyal },
-    { name: "Harshil Sharma", image: Harshil },
-    { name: "Sameera Munjampally", image: Sameera },
-    { name: "Ravali Maddela", image: Ravali },
-    { name: "Vineetha Ravulapalli", image: Vineetha },
+    { name: "Priyal Patel", image: Priyal, desc: "Website Developer" },
+    { name: "Harshil Sharma", image: Harshil, desc: "Website Developer" },
+    { name: "Sameera Munjampally", image: Sameera, desc: "Content Validator" },
+    { name: "Ravali Maddela", image: Ravali, desc: "Content Validator" },
+    {
+      name: "Vineetha Ravulapalli",
+      image: Vineetha,
+      desc: "Reporting and Delivery Lead",
+    },
   ];
 
   return (
@@ -36,11 +40,7 @@ function AboutUs() {
                     />
                   </div>
                   <div className="flip-card-back">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </p>
+                    <p>{member.desc}</p>
                   </div>
                 </div>
               </div>

@@ -11,30 +11,35 @@ function LiteratureReview() {
   });
 
   return (
-    <div id="liter" className="literature-review-container">
-      <h2 className="section-title">Literature Review</h2>
-      <table className="literature-table">
-        <thead>
-          <tr>
-            <th>Research Title</th>
-            <th>Methodology</th>
-            <th>Main Focus</th>
-            <th>Year Published</th>
-            <th>Link</th>
-          </tr>
-        </thead>
-        <tbody>
-          {tableData.map((row, index) => (
-            <tr key={index}>
-              <td>{row.title}</td>
-              <td>{row.methodology}</td>
-              <td>{row.focus}</td>
-              <td>{row.year}</td>
-              <td>{row.link}</td>
+    <div className="pad-div">
+      <div className="hr-div">
+        <hr /> <hr />
+      </div>
+      <div id="liter" className="literature-review-container">
+        <h2 className="section-title-literature">Literature Review</h2>
+        <table className="literature-table">
+          <thead>
+            <tr>
+              <th>Research Title</th>
+              <th>Methodology</th>
+              <th>Main Focus</th>
+              <th>Year Published</th>
+              <th>Link</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {tableData.map((row, index) => (
+              <tr key={index}>
+                <td>{row.title}</td>
+                <td>{row.methodology}</td>
+                <td>{row.focus}</td>
+                <td>{row.year}</td>
+                <td>{row.link}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }

@@ -25,6 +25,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  padding: 30px 0;
 }
 
 .methodology-image {
@@ -35,9 +36,9 @@
 
 .methodology-row p {
   flex: 1;
-  font-size: 16px;
+  font-size: 18px;
   color: #333;
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 .methodology-row:nth-child(even) {
@@ -48,6 +49,10 @@
   .methodology-row {
     flex-direction: column;
     text-align: center;
+  }
+
+  .methodology-row:nth-child(even) {
+    flex-direction: column;
   }
 
   .methodology-image {

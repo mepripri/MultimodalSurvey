@@ -74,7 +74,8 @@ function Methodology() {
               className="methodology-image"
             />
             <p>
-              Website Development: In parallel with the survey, but interlinked
+              <span style={{ fontSize: "30px", fontWeight: "bold" }}>W</span>
+              ebsite Development: In parallel with the survey, but interlinked
               with it, we designed and developed a responsive SPA website to
               host our findings. The website will consist of an introductory
               home section with an overview of the topic of the survey, sections
@@ -92,7 +93,8 @@ function Methodology() {
               className="methodology-image"
             />
             <p>
-              Synthesis: Analysis was performed after the classification of the
+              <span style={{ fontSize: "30px", fontWeight: "bold" }}>S</span>
+              ynthesis: Analysis was performed after the classification of the
               papers to synthesize their findings. For example, the
               effectiveness of various different multimodal learning methods is
               compared, while the major trends in the field are
