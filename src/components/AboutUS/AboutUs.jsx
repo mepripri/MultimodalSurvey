@@ -1,6 +1,5 @@
 import React from "react";
 import "./AboutUs.css";
-import img01 from "../../assets/img01.jpg";
 import Vineetha from "../../assets/Vineetha.jpg";
 import Sameera from "../../assets/Sameera.jpg";
 import Priyal from "../../assets/Priyal.jpg";
