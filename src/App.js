@@ -4,9 +4,9 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home";
-import LiteratureReview from "./components/Literature/Literature";
+import Taxonomy from "./components/Taxonomy/Taxonomy";
 import Methodology from "./components/Methodology/Methodology";
-import Result from "./components/Result/Result";
+import KeyFindings from "./components/KeyFindings/KeyFindings";
 import AboutUs from "./components/AboutUS/AboutUs";
 
 function App() {
@@ -16,9 +16,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/LiteratureReview" element={<LiteratureReview />} />
+          <Route path="/Taxonomy" element={<Taxonomy />} />
           <Route path="/Methodology" element={<Methodology />} />
-          <Route path="/Result" element={<Result />} />
+          <Route path="/KeyFindings" element={<KeyFindings />} />
           <Route path="/AboutUs" element={<AboutUs />} />
         </Routes>
         <Footer />

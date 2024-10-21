@@ -1,7 +1,8 @@
-import React from "react";
-import "./Literature.css";
+import React, { useState } from "react";
+import "./Taxonomy.css";
 
-function LiteratureReview() {
+function Taxonomy() {
+  const [searchTerm, setSearchTerm] = useState("");
   const tableData = [
     {
       citation:
@@ -161,13 +162,29 @@ function LiteratureReview() {
     },
   ];
 
+  const filteredData = tableData.filter((row) =>
+    Object.values(row).some((value) =>
+      value.toLowerCase().includes(searchTerm.toLowerCase())
+    )
+  );
+
   return (
     <div className="pad-div pad-div-lit">
       <div className="hr-div">
         <hr /> <hr />
       </div>
       <div id="liter" className="literature-review-container">
-        <h2 className="section-title-literature">Literature Review</h2>
+        <h2 className="section-title-taxonomy">Taxonomy</h2>
+        <div className="search-section">
+          <h3 className="search-title">Search a Paper :</h3>
+          <input
+            type="text"
+            placeholder="Type to search paper..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="search-input"
+          />
+        </div>
         <div className="literature-table-wrapper">
           <table className="literature-table">
             <thead>
@@ -179,7 +196,7 @@ function LiteratureReview() {
               </tr>
             </thead>
             <tbody>
-              {tableData.map((row, index) => (
+              {filteredData.map((row, index) => (
                 <tr key={index}>
                   <td>{row.citation}</td>
                   <td>{row.domain}</td>
@@ -187,6 +204,11 @@ function LiteratureReview() {
                   <td>{row.methodology}</td>
                 </tr>
               ))}
+              {filteredData.length === 0 && (
+                <tr>
+                  <td colSpan="4">No results found</td>
+                </tr>
+              )}
             </tbody>
           </table>
         </div>
@@ -195,4 +217,4 @@ function LiteratureReview() {
   );
 }
 
-export default LiteratureReview;
+export default Taxonomy;

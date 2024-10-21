@@ -29,22 +29,18 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link
-              to="/LiteratureReview"
-              className="link-a"
-              onClick={toggleMenu}
-            >
-              Literature Review
-            </Link>
-          </li>
-          <li>
             <Link to="/Methodology" className="link-a" onClick={toggleMenu}>
               Methodology
             </Link>
           </li>
           <li>
-            <Link to="/Result" className="link-a" onClick={toggleMenu}>
+            <Link to="/Taxonomy" className="link-a" onClick={toggleMenu}>
               Taxonomy
+            </Link>
+          </li>
+          <li>
+            <Link to="/KeyFindings" className="link-a" onClick={toggleMenu}>
+              KeyFindings
             </Link>
           </li>
           <li>

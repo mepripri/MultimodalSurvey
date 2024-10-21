@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-.section-title-literature {
+.section-title-taxonomy {
   text-decoration: overline;
   font-size: 36px;
   font-weight: bold;
@@ -69,4 +69,25 @@
     font-size: 14px;
     padding: 8px;
   }
+}
+
+.search-section {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #4a4947;
+  font-weight: bold;
+}
+
+.search-input {
+  padding: 10px;
+  width: 80%;
+  max-width: 500px;
+  font-size: 16px;
+  border: 1px solid #4a4947;
+  border-radius: 5px;
 }

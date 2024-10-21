@@ -1,15 +1,15 @@
 import React from "react";
-import "./Result.css";
+import "./KeyFindings.css";
 import img01 from "../../assets/img01.jpg"; // Ensure img01.jpg is in the right folder
 
-function Results() {
+function KeyFindings() {
   return (
     <div className="pad-div">
       <div className="hr-div">
         <hr /> <hr />
       </div>
       <div className="results-container" id="results">
-        <h2 className="section-title-results">Taxonomy</h2>
+        <h2 className="section-title-results">Key Findings</h2>
         <div className="results-content">
           <div className="result-block">
             <img src={img01} alt="Pie Chart" className="result-image" />
@@ -22,7 +22,6 @@ function Results() {
             </ul>
           </div>
 
-          {/* Second Result Block */}
           <div className="result-block">
             <ul className="result-list">
               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -51,4 +50,4 @@ function Results() {
   );
 }
 
-export default Results;
+export default KeyFindings;

@@ -15,7 +15,13 @@ function AboutUs() {
       moreDesc:
         "I’m a Master’s student at Saint Louis University, proficient front end developer effective at developing strong websites that achieve customer objectives. Well-versed in using ReactJS, NodeJS and ExpressJS as well as other resources to accomplish design requirements. ",
     },
-    { name: "Harshil Sharma", image: Harshil, desc: "Website Developer" },
+    {
+      name: "Harshil Sharma",
+      image: Harshil,
+      desc: "Website Developer",
+      moreDesc:
+        "Dedicated Cloud enthusiast with a Bachelor's degree in Computer Science Engineering, specializing in Cloud Computing from SRM Institute of Science and Technology, India. Currently, I am pursuing a Master's degree in Computer Science at Saint Louis University, USA, and have hands-on experience in AI/ML through internships and professional work.",
+    },
     { name: "Sameera Munjampally", image: Sameera, desc: "Content Validator" },
     {
       name: "Ravali Maddela",
