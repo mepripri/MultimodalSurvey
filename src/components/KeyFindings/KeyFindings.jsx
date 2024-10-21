@@ -1,6 +1,7 @@
 import React from "react";
 import "./KeyFindings.css";
-import img01 from "../../assets/img01.jpg"; // Ensure img01.jpg is in the right folder
+import kf01 from "../../assets/kf01.png";
+import kf02 from "../../assets/kf02.png";
 
 function KeyFindings() {
   return (
@@ -9,40 +10,32 @@ function KeyFindings() {
         <hr /> <hr />
       </div>
       <div className="results-container" id="results">
-        <h2 className="section-title-results">Key Findings</h2>
+        <h2 className="section-title-results">Core Insights</h2>
         <div className="results-content">
           <div className="result-block">
-            <img src={img01} alt="Pie Chart" className="result-image" />
-            <ul className="result-list">
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Incididunt ut labore et dolore magna aliqua.</li>
-              <li>Ut enim ad minim veniam, quis nostrud exercitation.</li>
-              <li>Excepteur sint occaecat cupidatat non proident.</li>
-              <li>Sunt in culpa qui officia deserunt mollit.</li>
-            </ul>
+            <h1>Key Findings</h1>
+            <img src={kf01} alt="Bar Chart" className="result-image" />
+            <p>
+              This horizontal bar chart summarizes the key findings of the same
+              papers in multimodal learning, rating their overall contributions.
+              It demonstrates that papers like "Transformers for Multimodal
+              Learning" and "Foundations of Multimodal ML" make the most
+              substantial contributions to the field, while others, like
+              "VisualWebArena" and "Multimodal Pretraining for RecSys," offer
+              more moderate insights.
+            </p>
           </div>
-
           <div className="result-block">
-            <ul className="result-list">
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Incididunt ut labore et dolore magna aliqua.</li>
-              <li>Ut enim ad minim veniam, quis nostrud exercitation.</li>
-              <li>Excepteur sint occaecat cupidatat non proident.</li>
-              <li>Sunt in culpa qui officia deserunt mollit.</li>
-            </ul>
-            <img src={img01} alt="Bar Chart" className="result-image" />
-          </div>
-
-          {/* Third Result Block */}
-          <div className="result-block">
-            <img src={img01} alt="Line Chart" className="result-image" />
-            <ul className="result-list">
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Incididunt ut labore et dolore magna aliqua.</li>
-              <li>Ut enim ad minim veniam, quis nostrud exercitation.</li>
-              <li>Excepteur sint occaecat cupidatat non proident.</li>
-              <li>Sunt in culpa qui officia deserunt mollit.</li>
-            </ul>
+            <h1>Key Challenges</h1>
+            <img src={kf02} alt="Line Chart" className="result-image" />
+            <p>
+              This bar chart compares the challenges of cross-modal alignment
+              and scalability across multiple papers in the field of multimodal
+              learning. The graph highlights how certain papers, such as
+              "Foundations of Multimodal ML" and "Transformers for Multimodal
+              Learning," score highly in both categories, while others exhibit
+              varying levels of emphasis on these key challenges.
+            </p>
           </div>
         </div>
       </div>

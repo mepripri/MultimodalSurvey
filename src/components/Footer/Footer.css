@@ -1,11 +1,11 @@
 .footer-bottom {
+  position: absolute;
+  margin-bottom: 0;
+  width: 100%;
   font-size: 18px;
   font-weight: 600;
   color: #faf7f0;
   padding: 20px;
   background-color: #4a4947;
   text-align: center;
-}
-
-@media (max-width: 768px) {
 }

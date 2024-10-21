@@ -40,7 +40,7 @@ function Navbar() {
           </li>
           <li>
             <Link to="/KeyFindings" className="link-a" onClick={toggleMenu}>
-              KeyFindings
+              Core Insights
             </Link>
           </li>
           <li>
