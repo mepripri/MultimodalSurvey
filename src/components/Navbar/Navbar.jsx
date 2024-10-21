@@ -45,7 +45,7 @@ function Navbar() {
           </li>
           <li>
             <Link to="/AboutUs" className="link-a" onClick={toggleMenu}>
-              AboutUs
+              About Us
             </Link>
           </li>
         </ul>
