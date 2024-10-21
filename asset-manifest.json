@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MultimodalSurvey/static/css/main.f4431829.css",
-    "main.js": "/MultimodalSurvey/static/js/main.c0f34505.js",
+    "main.js": "/MultimodalSurvey/static/js/main.92f570ea.js",
     "static/media/Vineetha.jpg": "/MultimodalSurvey/static/media/Vineetha.c66ac981b907d49aee51.jpg",
     "static/media/Priyal.jpg": "/MultimodalSurvey/static/media/Priyal.74c162145660ab966e09.jpg",
     "static/media/Sameera.jpg": "/MultimodalSurvey/static/media/Sameera.f7c8253c386501afb271.jpg",
@@ -12,10 +12,10 @@
     "static/media/kf01.png": "/MultimodalSurvey/static/media/kf01.26d195de42a13d32a9f6.png",
     "index.html": "/MultimodalSurvey/index.html",
     "main.f4431829.css.map": "/MultimodalSurvey/static/css/main.f4431829.css.map",
-    "main.c0f34505.js.map": "/MultimodalSurvey/static/js/main.c0f34505.js.map"
+    "main.92f570ea.js.map": "/MultimodalSurvey/static/js/main.92f570ea.js.map"
   },
   "entrypoints": [
     "static/css/main.f4431829.css",
-    "static/js/main.c0f34505.js"
+    "static/js/main.92f570ea.js"
   ]
 }
