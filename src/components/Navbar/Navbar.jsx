@@ -13,7 +13,7 @@ function Navbar() {
     <>
       <div className={`navbar ${menuOpen ? "expanded" : ""}`}>
         <div className="logo">
-          <Link to="/" className="link-a">
+          <Link to="/MultimodalSurvey/" className="link-a">
             MultimodalSurvey
           </Link>
         </div>
@@ -24,27 +24,47 @@ function Navbar() {
         </div>
         <ul className={`navbar-menu ${menuOpen ? "open" : ""}`}>
           <li>
-            <Link to="/" className="link-a" onClick={toggleMenu}>
+            <Link
+              to="/MultimodalSurvey/"
+              className="link-a"
+              onClick={toggleMenu}
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link to="/Methodology" className="link-a" onClick={toggleMenu}>
+            <Link
+              to="/MultimodalSurvey/Methodology"
+              className="link-a"
+              onClick={toggleMenu}
+            >
               Methodology
             </Link>
           </li>
           <li>
-            <Link to="/Taxonomy" className="link-a" onClick={toggleMenu}>
+            <Link
+              to="/MultimodalSurvey/Taxonomy"
+              className="link-a"
+              onClick={toggleMenu}
+            >
               Taxonomy
             </Link>
           </li>
           <li>
-            <Link to="/KeyFindings" className="link-a" onClick={toggleMenu}>
+            <Link
+              to="/MultimodalSurvey/KeyFindings"
+              className="link-a"
+              onClick={toggleMenu}
+            >
               Core Insights
             </Link>
           </li>
           <li>
-            <Link to="/AboutUs" className="link-a" onClick={toggleMenu}>
+            <Link
+              to="/MultimodalSurvey/AboutUs"
+              className="link-a"
+              onClick={toggleMenu}
+            >
               About Us
             </Link>
           </li>

@@ -22,7 +22,13 @@ function AboutUs() {
       moreDesc:
         "Dedicated Cloud enthusiast with a Bachelor's degree in Computer Science Engineering, specializing in Cloud Computing from SRM Institute of Science and Technology, India. Currently, I am pursuing a Master's degree in Computer Science at Saint Louis University, USA, and have hands-on experience in AI/ML through internships and professional work.",
     },
-    { name: "Sameera Munjampally", image: Sameera, desc: "Content Validator" },
+    {
+      name: "Hima Sameera Munjampally",
+      image: Sameera,
+      desc: "Content Validator",
+      moreDesc:
+        "I am a Master’s student at Saint Louis University, passionate developer with a strong focus on backend technologies and a keen interest in expanding my frontend skills. With hands-on experience in languages like Python and Java through projects and professional work. My work emphasizes clean code and problem-solving, driven by a deep interest in creating robust applications.",
+    },
     {
       name: "Ravali Maddela",
       image: Ravali,

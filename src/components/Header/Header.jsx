@@ -17,7 +17,7 @@ function Header() {
             future research to build more robust, scalable, and secure
             multimodal systems for web applications.
           </p>
-          <Link to="/Methodology" className="link-a">
+          <Link to="/MultimodalSurvey/Methodology" className="link-a">
             <button className="header-btn">MORE INFO</button>
           </Link>
         </div>

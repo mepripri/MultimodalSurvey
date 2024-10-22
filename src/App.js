@@ -16,10 +16,17 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Taxonomy" element={<Taxonomy />} />
-          <Route path="/Methodology" element={<Methodology />} />
-          <Route path="/KeyFindings" element={<KeyFindings />} />
-          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="MultimodalSurvey/" element={<Home />} />
+          <Route path="MultimodalSurvey/Taxonomy" element={<Taxonomy />} />
+          <Route
+            path="MultimodalSurvey/Methodology"
+            element={<Methodology />}
+          />
+          <Route
+            path="MultimodalSurvey/KeyFindings"
+            element={<KeyFindings />}
+          />
+          <Route path="MultimodalSurvey/AboutUs" element={<AboutUs />} />
         </Routes>
         <Footer />
       </div>
